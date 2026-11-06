@@ -71,3 +71,4 @@ SELECT
 FROM departments d
 JOIN employees e ON d.name = e.department
 GROUP BY d.name, d.budget;
+
